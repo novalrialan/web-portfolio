@@ -11,7 +11,10 @@ export default {
     },
   },
   plugins: [
-    require('flowbite')
+    require('flowbite/plugin')
   ],
-}
+
+};
+
+
 
