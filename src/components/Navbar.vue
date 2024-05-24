@@ -13,16 +13,11 @@
         /> -->
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-          >web portfolio | noval rialan</span
+        >
+          web portfolio | noval rialan</span
         >
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <!-- <button
-          type="button"
-          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Get started
-        </button> -->
         <button
           data-collapse-toggle="navbar-sticky"
           type="button"
@@ -110,50 +105,32 @@
   <div class="bg-gradient-to-r from-blue-500 w-full mt-10">
     <br />
     <br />
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 mr2">
-      <!-- quote content -->
-      <div class="bg-white dark:bg-gray-800 rounded-md p-8">
-        <figure class="max-w-md">
-          <blockquote>
-            <p
-              class="text-2xl text-justify font-semibold text-gray-900 dark:text-white"
-            >
-              Hi, let me introduce myself to you <br />
-              I'm Noval Rialan a <strong> software engineer</strong> and I like
-              drinking coffee during work and breaks
-            </p>
-          </blockquote>
-          <figcaption
-            class="flex items-center mt-6 space-x-3 rtl:space-x-reverse"
-          >
-            <img
-              class="w-6 h-6 rounded-full"
-              src="/src/assets/images/person.png"
-              alt="profile picture"
-            />
-            <div
-              class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-300 dark:divide-gray-700"
-            >
-              <cite class="pe-3 font-medium text-gray-900 dark:text-white"
-                >Noval Rialan</cite
-              >
-              <cite class="ps-3 text-sm text-gray-500 dark:text-gray-400"
-                >Junior software engineer web and mobile</cite
-              >
-            </div>
-          </figcaption>
-        </figure>
+    <div class="container mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 mr2">
+      <!-- content text -->
+      <div class="w-full h-full flex justify-center items-center">
+        <h1 id="typewriter" class="text-4xl text-white"></h1>
       </div>
-      <!-- quote content -->
+      <!-- content Text -->
 
-      <div class="flex justify-center md:flex-wrap md:order-2">
-        <div class="relative h-100 w-100">
+      <div class="flex justify-center">
+        <div class="card-person relative h-100 w-100">
           <img
-            class="h-190 rounded-full md:h-auto md:-mb-2 mb-4"
+            class="rounded-full md:h-auto sm:w-auto bg-gradient-to-r from-slate-800 to-slate-500"
             src="/src/assets/images/person.png"
-            alt="person"
+            alt="NovalRialan"
             srcset=""
           />
+          <!-- <img
+            class="bg-gradient-to-r from-slate-800 to-slate-500"
+            src="/src/assets/images/person.png"
+            alt="John"
+            style="width: 100%"
+          />
+          <h1 class="text-3xl font-sans">Noval Rialan</h1>
+          <p class="text-2px text-stone-500">
+            Coder & Software engineer, Junior
+          </p>
+          <p>Immanuel Kristen University</p> -->
         </div>
       </div>
     </div>
@@ -164,12 +141,6 @@
 <script setup>
 import { onMounted } from "vue";
 import {
-  initAccordions,
-  initCarousels,
-  initCollapses,
-  initDials,
-  initDismisses,
-  initDrawers,
   initDropdowns,
   initModals,
   initPopovers,
@@ -179,27 +150,60 @@ import {
 
 // initialize components based on data attribute selectors
 onMounted(() => {
-  initAccordions();
-  initCarousels();
-  initCollapses();
-  initDials();
-  initDismisses();
-  initDrawers();
   initDropdowns();
   initModals();
   initPopovers();
   initTabs();
   initTooltips();
+  type();
 });
 
-// const navLinks = [
-//   { dashboard: "Dashboard" },
+const words = [
+  "Hello, Welcome to My Personal Website",
+  "I'm Noval Rialan",
+  "a Software Engineer",
+];
+let i = 0;
+let j = 0;
+let currentWord = "";
+let isDeleting = false;
 
-//   { profile: "Profile" },
-
-//   { tools: "Tools" },
-
-//   { news: "News" },
-// ];
+function type() {
+  currentWord = words[i];
+  if (isDeleting) {
+    document.getElementById("typewriter").textContent = currentWord.substring(
+      0,
+      j - 1
+    );
+    j--;
+    if (j == 0) {
+      isDeleting = false;
+      i++;
+      if (i == words.length) {
+        i = 0;
+      }
+    }
+  } else {
+    document.getElementById("typewriter").textContent = currentWord.substring(
+      0,
+      j + 1
+    );
+    j++;
+    if (j == currentWord.length) {
+      isDeleting = true;
+    }
+  }
+  setTimeout(type, 300);
+}
 </script>
 
+<style>
+/* .card-person {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+} */
+</style>

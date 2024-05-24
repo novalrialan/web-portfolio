@@ -4,11 +4,6 @@
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <a href="https://flowbite.com/" class="flex items-center">
-            <!-- <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8 me-3"
-              alt="FlowBite Logo"
-            /> -->
             <span
               class="text-white self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
               >web portfolio | noval rialan</span
@@ -192,15 +187,12 @@
   </footer>
 </template>
 
+
 <style>
 .content-separator {
   border-bottom: 1px solid #ccc; /* Adjust color and thickness as needed */
   margin: 10px 0; /* Add some margin for spacing */
 }
-
-/* nav {
-  border-bottom: 50px;
-} */
 
 html {
   scroll-behavior: smooth;

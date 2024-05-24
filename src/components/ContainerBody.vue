@@ -71,7 +71,12 @@
     <!-- Content 1 -->
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2">
       <div class="p-4">
-        <img src="/src/assets/images/img-background.jpg" alt="" srcset="" />
+        <img
+          class="zoom"
+          src="/src/assets/images/img-background.jpg"
+          alt=""
+          srcset=""
+        />
       </div>
       <div class="p-4">
         <button
@@ -100,21 +105,6 @@
             class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
           >
             See more
-            <!-- <svg
-              class="w-4 h-4 ms-2 rtl:rotate-180"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg> -->
           </a>
         </p>
       </div>
@@ -122,7 +112,7 @@
     <div class="container mx-auto"><div class="content-separator"></div></div>
     <!-- Content 2 -->
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2">
-      <div class="p-4">
+      <div class="p-4 md:order-1 order-2">
         <button
           class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
         >
@@ -149,27 +139,13 @@
             class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
           >
             See more
-            <!-- <svg
-              class="w-4 h-4 ms-2 rtl:rotate-180"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg> -->
           </a>
         </p>
       </div>
-      <div class="p-4">
+      <div class="p-4 md:order-2 order-1">
         <img
-          class="flex justify-center md:order-1"
+          loading="lazy"
+          class="flex justify-center"
           src="/src/assets/images/img-background.jpg"
           alt=""
           srcset=""
@@ -180,7 +156,12 @@
     <!-- Content 3 -->
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2">
       <div class="p-4">
-        <img src="/src/assets/images/img-background.jpg" alt="" srcset="" />
+        <img
+          class="zoom"
+          src="/src/assets/images/img-background.jpg"
+          alt=""
+          srcset=""
+        />
       </div>
       <div class="p-4">
         <button
@@ -209,26 +190,8 @@
             class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
           >
             See more
-            <!-- <svg
-              class="w-4 h-4 ms-2 rtl:rotate-180"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg> -->
           </a>
         </p>
-        <!-- <p class="text-gray-500 dark:text-gray-400">
-          500,000 people & companies have made over a million apps with Glide.
-        </p> -->
       </div>
     </div>
   </div>
