@@ -1,0 +1,140 @@
+<div class="bg-gradient-to-r from-blue-500 w-full mt-10">
+  <br />
+  <br />
+  <div class="container mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 mr2">
+    <!-- content text -->
+    <div class="w-full h-full flex justify-center items-center">
+      <h1 id="typewriter" class="text-4xl text-white"></h1>
+    </div>
+    <!-- content Text -->
+
+    <div class="flex justify-center">
+      <!-- <div class="card-person relative h-100 w-100">
+                <img
+                    class="rounded-full md:h-auto sm:w-auto bg-gradient-to-r from-slate-800 to-slate-500"
+                    src="/src/assets/images/person.png"
+                    alt="NovalRialan"
+                    srcset=""
+                />
+
+            </div> -->
+    </div>
+  </div>
+
+  <section class="bg-white">
+    <div
+      class="w-full mx-auto max-w-xl flex flex-col lg:h-svh justify-center py-24 lg:py-96 relative p-8"
+    >
+      <div
+        class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl"
+      >
+        <div>
+          <h1>Image gallery</h1>
+          <p class="text-balance">
+            Click on the image to view it in full screen and click outside the
+            image or press ESC to close it.
+          </p>
+        </div>
+      </div>
+      <div class="mt-6 border-t pt-12">
+        <!-- Starts component -->
+        <div
+          x-data="{ currentImage: null }"
+          x-init="() => {
+        window.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                currentImage = null;
+            }
+        });
+    }"
+        >
+          <div class="grid grid-cols-3 gap-4">
+            <div
+              x-on:click="currentImage = 'https://i.pinimg.com/564x/59/41/a0/5941a02c048f6226031a0487451c2651.jpg'"
+              class="cursor-pointer"
+            >
+              <img
+                src="https://i.pinimg.com/564x/59/41/a0/5941a02c048f6226031a0487451c2651.jpg"
+                alt="Image 1"
+                class="w-full h-auto aspect-[3/4] object-cover"
+              />
+            </div>
+            <div
+              x-on:click="currentImage = 'https://i.pinimg.com/736x/70/25/f6/7025f63ebdd1caa11b47889c4c4d8fcd.jpg'"
+              class="cursor-pointer"
+            >
+              <img
+                src="https://i.pinimg.com/736x/70/25/f6/7025f63ebdd1caa11b47889c4c4d8fcd.jpg"
+                alt="Image 2"
+                class="w-full h-auto aspect-[3/4] object-cover"
+              />
+            </div>
+            <div
+              x-on:click="currentImage = 'https://i.pinimg.com/564x/4e/a7/ff/4ea7ff230ad9f3bc1c30b1b6cbaccad3.jpg'"
+              class="cursor-pointer"
+            >
+              <img
+                src="https://i.pinimg.com/564x/4e/a7/ff/4ea7ff230ad9f3bc1c30b1b6cbaccad3.jpg"
+                alt="Image 3"
+                class="w-full h-auto aspect-[3/4] object-cover"
+              />
+            </div>
+            <!-- Add more image placeholders as needed -->
+          </div>
+          <!-- Modal -->
+          <div
+            x-show="currentImage"
+            class="fixed inset-0 flex items-center justify-center bg-gray-200 bg-opacity-80 transition-opacity duration-300"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-title"
+            style="display: none"
+          >
+            <div
+              @click.away="currentImage = null"
+              class="max-w-full max-h-full overflow-auto py-12"
+              tabindex="-1"
+              aria-labelledby="modal-title"
+              aria-describedby="modal-description"
+            >
+              <div
+                class="prose text-gray-500 mx-auto prose-sm prose-headings:font-normal prose-headings:text-xl"
+              >
+                <div class="text-center max-w-sm mx-auto">
+                  <h1>The modal</h1>
+                  <p class="text-balance">
+                    To close the modal, click outside the modal, press ESC, or
+                    click the close button.
+                  </p>
+                </div>
+              </div>
+              <button
+                @click="currentImage = null"
+                class="rounded-full bg-orange-600 px-8 py-2 h-12 text-sm font-semibold flex items-center text-white hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 justify-center mx-auto w-auto focus:ring-offset-2"
+              >
+                Close
+              </button>
+              <img
+                :src="currentImage"
+                alt="Full Size Image"
+                class="max-w-full max-h-full mx-auto mt-12"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Ends component -->
+        <!-- Starts links to tutorial -->
+        <div
+          class="pointer-events-none fixed inset-x-0 bottom-0 sm:flex sm:justify-center p-2"
+        >
+          <div
+            class="pointer-events-auto flex w-full max-w-md divide-x divide-neutral-200 rounded-lg bg-white shadow-xl border"
+          ></div>
+        </div>
+        <!-- Ends links to tutorial -->
+      </div>
+    </div>
+  </section>
+
+  <br />
+</div>
