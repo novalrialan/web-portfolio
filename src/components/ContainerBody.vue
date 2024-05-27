@@ -442,7 +442,7 @@
     </div>
   </div>
   <br />
-  <div class="bg-gradient-to-r from-blue-500 w-full h-60 p-10">
+  <div class="bg-black w-full h-60 p-10">
     <div class="container mx-auto p-5">
       <h1 class="text-white font-semibold text-4xl">
         Let's Discuss Careers and Technology
