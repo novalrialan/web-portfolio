@@ -4,10 +4,7 @@
     <Navbar />
   </div>
   <div class="max-w-11xl mx-auto">
-    <Container />
-  </div>
-  <div class="max-w-11xl mx-auto">
-    <ContainerBody />
+    <Body />
   </div>
   <div>
     <Footer />
@@ -17,6 +14,5 @@
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
 
-import Container from "./components/Container.vue";
-import ContainerBody from "./components/ContainerBody.vue";
+import Body from "./components/Body.vue";
 </script>

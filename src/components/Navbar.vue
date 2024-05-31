@@ -122,12 +122,12 @@
         <p
           class="text-justify text-white w-full sm:w-[35rem] md:w-[30rem] lg:w-[35rem] m-8"
         >
-          I'm Noval, passion for web development. My tech journey started with
-          HTML, CSS, and JavaScript, and I was hooked by the thrill of crafting
-          dynamic, interactive websites. As I grew, Node.js, vue.jS, and ReactJS
-          became my go-to tools for building scalable applications. Feel free to
-          connect if you have questions, collaboration ideas, or just want to
-          discuss the latest in web development !
+          Nickname, Noval, passion for web development. My tech journey started
+          with HTML, CSS, and JavaScript, and I was hooked by the thrill of
+          crafting dynamic, interactive websites. As I grew, Node.js, vue.jS,
+          and ReactJS became my go-to tools for building scalable applications.
+          Feel free to connect if you have questions, collaboration ideas, or
+          just want to discuss the latest in web development !
         </p>
         <div
           id="social"

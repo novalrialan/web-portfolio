@@ -198,4 +198,29 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 120px;
 }
+
+.content-separator {
+  border-bottom: 1px solid #ccc; /* Adjust color and thickness as needed */
+  margin: 10px 0; /* Add some margin for spacing */
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hidden-con {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
 </style>
