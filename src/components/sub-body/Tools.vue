@@ -166,8 +166,8 @@
 
 <script setup>
 import { ref } from "vue";
-import BackEnd from "./subBody/BackEnd.vue";
-import FrontEnd from "./subBody/FrontEnd.vue";
+import BackEnd from "../sub-body/BackEnd.vue";
+import FrontEnd from "../sub-body/FrontEnd.vue";
 // Define reactive state
 const currentContent = ref();
 

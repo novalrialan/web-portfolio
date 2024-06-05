@@ -78,7 +78,7 @@
             Contact
           </h2>
           <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-slate-400">
-            Please use the form below to contact us. Thank you!
+            Please use the form below to contact me. Thank you!
           </p>
         </div>
         <div class="mt-12">

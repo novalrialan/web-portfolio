@@ -20,10 +20,17 @@
           </svg>
           <div class="w-full text-lg font-semibold">Laravel</div>
           <div class="w-full text-sm">
-            Vue.js is a progressive JavaScript framework used to build user
-            interfaces and single-page applications (SPAs). Developed by Evan
-            You, Vue is designed to be adaptive and easy to integrate with other
-            projects.
+            Laravel aims to simplify common tasks in web projects such as
+            routing, authentication, sessions, and caching, by providing
+            efficient tools and resources. The framework follows the MVC
+            (Model-View-Controller) architecture, facilitating the separation of
+            application logic and user interface. With features like Eloquent
+            ORM for database manipulation, schema migration, the Blade
+            templating system, and a rich ecosystem of packages, Laravel enables
+            developers to build applications that are powerful, scalable, and
+            easy to maintain. Additionally, Laravel has a large community and
+            good documentation, making it one of the most popular and widely
+            used PHP frameworks in the world.
           </div>
         </div>
         <div
@@ -31,7 +38,7 @@
           role="tooltip"
           class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
         >
-          Vue.js already
+          Laravel already
           <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
       </label>
@@ -57,10 +64,18 @@
           </svg>
           <div class="w-full text-lg font-semibold">Spring boot3</div>
           <div class="w-full text-sm">
-            Angular is a TypeScript-based web application framework developed by
-            Google for building dynamic web applications and complex. Angular is
-            the successor to AngularJS, with improvements significant in
-            performance, features, and architecture.
+            Spring Boot 3 is the latest version of the Spring Boot framework,
+            designed to simplify the development of Spring-based Java
+            applications by providing automatic configuration, efficient
+            development tools, and ready-to-use setup. Spring Boot 3 supports
+            Java 17, and includes performance improvements, security, and
+            support for cloud-native development. This framework makes it easier
+            to build microservice applications with better integration into the
+            Spring ecosystem, including Spring Cloud and Spring Data. Features
+            like Spring Boot Actuator for application monitoring, as well as
+            easy configuration and dependency management, make Spring Boot 3 a
+            top choice for developers looking to build powerful, scalable, and
+            easy-to-maintain applications quickly.
           </div>
         </div>
         <div

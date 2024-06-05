@@ -69,7 +69,7 @@
 
       <div class="flex flex-nowrap">
         <div class="container mx-auto text-2xl text-white p-0">
-          Contact Me :
+          Contact :
           <br />
         </div>
 
@@ -106,8 +106,8 @@
       </div>
     </div>
   </div>
-  <br class="mb-20" />
-  <!-- Content center -->
+  <br class="mb-10" />
+  <!-- dialog content center -->
   <section class="text-black hidden-con">
     <div id="Service" class="relative mx-auto text-center">
       <h2 class="text-2xl">Service Offering</h2>
@@ -130,75 +130,14 @@
       </p>
     </div>
   </section>
+  <!-- end dialog content center -->
+
+  <!-- start content center -->
+  <div>
+    <CenterContaint />
+  </div>
   <!-- end content center -->
 
-  <br />
-  <!-- start mockup device laptop -->
-  <section class="text-black hidden-con">
-    <div
-      class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]"
-    >
-      <div
-        class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800"
-      >
-        <img
-          src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png"
-          class="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl"
-          alt=""
-        />
-        <img
-          src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen-dark.png"
-          class="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg"
-          alt=""
-        />
-      </div>
-    </div>
-    <div
-      class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]"
-    >
-      <div
-        class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"
-      ></div>
-    </div>
-  </section>
-  <!-- end mockup device laptop -->
-
-  <br />
-  <!-- start mockup device handphone -->
-  <section class="text-black hidden-con">
-    <div
-      class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]"
-    >
-      <div
-        class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"
-      ></div>
-      <div
-        class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"
-      ></div>
-      <div
-        class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"
-      ></div>
-      <div
-        class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"
-      ></div>
-      <div
-        class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800"
-      >
-        <img
-          src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-light.png"
-          class="dark:hidden w-[272px] h-[572px]"
-          alt=""
-        />
-        <img
-          src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-dark.png"
-          class="hidden dark:block w-[272px] h-[572px]"
-          alt=""
-        />
-      </div>
-    </div>
-  </section>
-  <!--  end mockup device handphone -->
-  <br />
   <div class="bg-[#F8FAFC] w-full mt-5 mb-20">
     <Tools />
   </div>
@@ -206,18 +145,18 @@
     <Contact />
   </div>
 </template>
+
+
 <script setup>
 import { onMounted } from "vue";
-import Tools from "./Tools.vue";
-import Contact from "./subBody/ContactMe.vue";
-import Experience from "./subBody/Experience.vue";
+import Tools from "./sub-body/Tools.vue";
+import Contact from "./sub-body/Contact.vue";
+import Experience from "./sub-body/Experience.vue";
+import CenterContaint from "./sub-body/CenterContaint.vue";
 
 onMounted(() => {
   effect();
 });
-
-// const hiddenElements = document.querySelectorAll(".hidden-con");
-// hiddenElements.forEach((el) => observer.observe(el));
 
 function effect() {
   const observer = new IntersectionObserver((entries) => {
@@ -233,7 +172,30 @@ function effect() {
   const hiddenElements = document.querySelectorAll(".hidden-con");
   hiddenElements.forEach((el) => observer.observe(el));
 }
-</script>
 
-<!-- <style>
-</style> -->
+let userHasScrolled = false;
+let lastScrollY = window.scrollY;
+
+// Fungsi yang akan dipanggil setiap interval waktu untuk memeriksa posisi scroll
+function checkScroll() {
+  if (window.scrollY !== lastScrollY) {
+    userHasScrolled = true;
+
+    lastScrollY = window.scrollY;
+    console.log(
+      `User has scrolled. Current scroll position: ${window.scrollY}`
+    );
+  } else {
+    userHasScrolled = false;
+  }
+}
+
+// Menambahkan event listener untuk mendeteksi scroll manual
+window.onscroll = function (e) {
+  userHasScrolled = true;
+  lastScrollY = window.scrollY;
+};
+
+// Menjalankan checkScroll setiap 500 milidetik (0.5 detik)
+setInterval(checkScroll, 500);
+</script>

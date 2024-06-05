@@ -11,13 +11,10 @@
     <br />
     <!-- Content 1 -->
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2">
-      <div class="p-4">
-        <img
-          class="zoom"
-          src="/src/assets/images/img-background.jpg"
-          alt=""
-          srcset=""
-        />
+      <div
+        class="relative inline-flex transition ease-in-out duration-500 delay-150 transform md:hover:-translate-x-10 md:hover:-translate-y-4 shrink-0 p-4"
+      >
+        <img src="/src/assets/images/img-background.jpg" alt="" srcset="" />
       </div>
       <div class="p-4">
         <button
@@ -133,6 +130,7 @@
       </div>
     </div>
     <div class="container mx-auto"><div class="content-separator"></div></div>
+    <br />
     <!-- Content 2 -->
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2">
       <div class="p-4 md:order-1 order-2">
@@ -247,7 +245,9 @@
           </div>
         </div>
       </div>
-      <div class="p-4 md:order-2 order-1">
+      <div
+        class="p-4 md:order-2 order-1 relative inline-flex transition ease-in-out duration-500 delay-150 transform md:hover:-translate-x-4 md:hover:-translate-y-10 shrink-0"
+      >
         <img
           loading="lazy"
           class="flex justify-center"
@@ -260,7 +260,9 @@
     <div class="container mx-auto"><div class="content-separator"></div></div>
     <!-- Content 3 -->
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2">
-      <div class="p-4">
+      <div
+        class="relative inline-flex transition ease-in-out duration-500 delay-150 transform md:hover:-translate-x-10 md:hover:-translate-y-4 shrink-0 p-4"
+      >
         <img
           class="zoom"
           src="/src/assets/images/img-background.jpg"
@@ -288,8 +290,7 @@
           The previously created student activity publication information system
           does not stop innovating in carrying out further development. In
           particular, the implementation of mobile applications is intended to
-          provide real-time notifications and be integrated with user devices to
-          increase their productivity in campus and community activities.
+          provide real-time notifications and be integrated with user devices
           <a
             href="#"
             class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
