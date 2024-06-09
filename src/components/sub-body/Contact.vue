@@ -139,11 +139,6 @@
               </button>
             </div>
           </form>
-          <a
-            href="https://veilmail.io/e/FkKh7o"
-            class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-            >Or click here to reveal our protected email address</a
-          >
         </div>
       </div>
     </div>

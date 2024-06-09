@@ -65,10 +65,10 @@
               </svg>
             </span>
             <div>
-              <h3 class="font-semibold text-xl">Expressive API</h3>
-              <p class="mt-1 text-gray-500">
-                You don't need to be an expert to use our plugin. Our expressive
-                API is readable and well documented.
+              <h3 class="font-semibold text-xl">Development Monolith</h3>
+              <p class="mt-1 text-gray-500 text-left">
+                Monolith architecture is a software development approach where
+                all applications are developed as a large and inseparable unity.
               </p>
             </div>
           </div>
@@ -94,8 +94,8 @@
             <div>
               <h3 class="font-semibold text-xl">Highly performant</h3>
               <p class="mt-1 text-gray-500">
-                You can make sure your website or app is highly performant with
-                a built-in system to help you optimize.
+                Monolith architecture emits the ability to manage all
+                application components into one integrated unit.
               </p>
             </div>
           </div>
@@ -119,11 +119,8 @@
               </svg>
             </span>
             <div>
-              <h3 class="font-semibold text-xl">No dependencies</h3>
-              <p class="mt-1 text-gray-500">
-                Our plugins do not have any external dependencies so our plugin
-                has the minimal footprint possible.
-              </p>
+              <h3 class="font-semibold text-xl">Dependencies</h3>
+              <p class="mt-1 text-gray-500">AdminLTE, Boostrap, Jquery</p>
             </div>
           </div>
         </div>
@@ -182,10 +179,11 @@
               </svg>
             </span>
             <div>
-              <h3 class="font-semibold text-xl">Expressive API</h3>
+              <h3 class="font-semibold text-xl">Development Web Service</h3>
               <p class="mt-1 text-gray-500">
-                You don't need to be an expert to use our plugin. Our expressive
-                API is readable and well documented.
+                Web services are a technology for communicating data exchanges
+                between applications through standard protocol networks such as
+                HTTP.
               </p>
             </div>
           </div>
@@ -211,8 +209,8 @@
             <div>
               <h3 class="font-semibold text-xl">Highly performant</h3>
               <p class="mt-1 text-gray-500">
-                You can make sure your website or app is highly performant with
-                a built-in system to help you optimize.
+                Web service performance is the ability to respond quickly and
+                efficiently to user demand through the network.
               </p>
             </div>
           </div>
@@ -236,10 +234,10 @@
               </svg>
             </span>
             <div>
-              <h3 class="font-semibold text-xl">No dependencies</h3>
+              <h3 class="font-semibold text-xl">Dependencies</h3>
               <p class="mt-1 text-gray-500">
-                Our plugins do not have any external dependencies so our plugin
-                has the minimal footprint possible.
+                Maven, Lombok, JSON Web Token (JWT), Hibernate, Base64, Flutter,
+                MySQL
               </p>
             </div>
           </div>
@@ -318,10 +316,13 @@
               </svg>
             </span>
             <div>
-              <h3 class="font-semibold text-xl">Expressive API</h3>
+              <h3 class="font-semibold text-xl">
+                Develoment Flutter (mobile application cross-platform)
+              </h3>
               <p class="mt-1 text-gray-500">
-                You don't need to be an expert to use our plugin. Our expressive
-                API is readable and well documented.
+                The framework is a Flutter Development of Mobile Applications
+                that are fast, responsive and cross-platforms of Dart
+                programming languages.
               </p>
             </div>
           </div>
@@ -347,8 +348,9 @@
             <div>
               <h3 class="font-semibold text-xl">Highly performant</h3>
               <p class="mt-1 text-gray-500">
-                You can make sure your website or app is highly performant with
-                a built-in system to help you optimize.
+                Flutter has high performance because it uses direct rendering
+                and compilation to the native code, providing a responsive and
+                smooth user experience in mobile applications.
               </p>
             </div>
           </div>
@@ -372,11 +374,8 @@
               </svg>
             </span>
             <div>
-              <h3 class="font-semibold text-xl">No dependencies</h3>
-              <p class="mt-1 text-gray-500">
-                Our plugins do not have any external dependencies so our plugin
-                has the minimal footprint possible.
-              </p>
+              <h3 class="font-semibold text-xl">Dependencies</h3>
+              <p class="mt-1 text-gray-500">Http, JavaJDK, Bluestack5</p>
             </div>
           </div>
         </div>
