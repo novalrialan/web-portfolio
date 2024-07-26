@@ -82,7 +82,7 @@
           </p>
         </div>
         <div class="mt-12">
-          <form action="https://formsubmit.co/54053292b6f5fb1428ca49b93a09521f" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form action="https://formsubmit.co/novalrialan214@gmail.com" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
             <div class="sm:col-span-2">
               <label
                 for="name"
