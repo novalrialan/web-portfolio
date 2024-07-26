@@ -1,5 +1,5 @@
 <template>
-  <form >
+  <form>
     <div
       id="contact-us"
       class="overflow-hidden bg-white py-16 px-4 dark:bg-slate-900 sm:px-6 lg:px-8 lg:py-24"
@@ -82,7 +82,11 @@
           </p>
         </div>
         <div class="mt-12">
-          <form action="https://formsubmit.co/novalrialan214@gmail.com" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form
+            action="https://formsubmit.co/54053292b6f5fb1428ca49b93a09521f "
+            method="POST"
+            class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+          >
             <div class="sm:col-span-2">
               <label
                 for="name"
@@ -96,7 +100,8 @@
                   id="fullname"
                   autocomplete="organization"
                   class="border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
-               required/>
+                  required
+                />
               </div>
             </div>
             <div class="sm:col-span-2">
@@ -112,7 +117,8 @@
                   type="email"
                   autocomplete="email"
                   class="border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
-                required/>
+                  required
+                />
               </div>
             </div>
             <div class="sm:col-span-2">
@@ -127,11 +133,13 @@
                   id="message"
                   rows="4"
                   class="border-gray-300 block w-full rounded-md py-3 px-4 shadow-sm focus:border-sky-500 focus:ring-sky-500 dark:border-white/5 dark:bg-slate-700/50 dark:text-white"
-                required></textarea>
+                  required
+                ></textarea>
               </div>
             </div>
-            <input type="hidden" name="subject" value="projects">
-            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="subject" value="projects" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
             <div class="flex justify-end sm:col-span-2">
               <button
                 type="submit"
