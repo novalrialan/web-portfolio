@@ -12,7 +12,7 @@
       >
         <article
           class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-          style="background-image: url('/src/assets/images/Javascript-01.jpg')"
+          style="background-image: url('/src/assets/images/javascript.png')"
         >
           <div
             class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
@@ -40,7 +40,7 @@
       >
         <article
           class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-          style="background-image: url('/src/assets/images/Kotlin-01.jpg')"
+          style="background-image: url('/src/assets/images/kotlin.png')"
         >
           <div
             class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
@@ -68,7 +68,7 @@
       >
         <article
           class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-          style="background-image: url('/src/assets/images/Flutter-01.jpg')"
+          style="background-image: url('/src/assets/images/flutter.png')"
         >
           <div
             class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
@@ -96,7 +96,7 @@
       >
         <article
           class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-          style="background-image: url('/src/assets/images/Laravel-01.jpg')"
+          style="background-image: url('/src/assets/images/laravel.png')"
         >
           <div
             class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
@@ -121,8 +121,8 @@
         class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
       >
         <article
-          class="mx-auto rounded-3xl overflow-hidden bg-auto bg-center ring-2 ring-inset ring-white/50 min-h-150 relative transform duration-500 group"
-          style="background-image: url('/src/assets/images/Springboot-01.jpg')"
+          class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
+          style="background-image: url('/src/assets/images/springboot.png')"
         >
           <div
             class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"

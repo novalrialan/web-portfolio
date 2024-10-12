@@ -14,7 +14,7 @@
       <div
         class="relative inline-flex transition ease-in-out duration-500 delay-150 transform md:hover:-translate-x-10 md:hover:-translate-y-4 shrink-0 p-4"
       >
-        <img src="/src/assets/images/img-background.jpg" alt="" srcset="" />
+        <img src="/src/assets/images/DISKESAPP.png" alt="" srcset="" />
       </div>
       <div class="p-4">
         <button
@@ -249,7 +249,7 @@
         <img
           loading="lazy"
           class="flex justify-center"
-          src="/src/assets/images/img-background.jpg"
+          src="/src/assets/images/SIAKADAPP.png"
           alt=""
           srcset=""
         />
@@ -263,7 +263,7 @@
       >
         <img
           class="zoom"
-          src="/src/assets/images/img-background.jpg"
+          src="/src/assets/images/UKMAPP.png"
           alt=""
           srcset=""
         />
