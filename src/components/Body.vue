@@ -9,7 +9,7 @@
     </p>
     <br />
 
-    <!-- language Image -->
+    <!-- Image language-->
     <div class="flex items-center justify-center flex-wrap-reverse">
       <img
         width="100"
@@ -133,155 +133,118 @@
   <!-- end dialog content center -->
 
   <!-- start content center -->
-  <div>
-    <!-- <CenterContaint /> -->
-    <section
-      class="flex flex-col lg:h-svh justify-center items-center overflow-scroll"
-    >
-      <div
-        class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl"
-      ></div>
-      <div class="flex flex-wrap mx-auto md:flex-nowrap mt-6 border-t pt-12">
-        <!-- start right 1 -->
-        <div
-          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
-        >
-          <article
-            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-            style="background-image: url('/src/assets/images/javascript.png')"
-          >
-            <div
-              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
-            >
-              <div
-                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
-              >
-                <p
-                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
-                >
-                  JavaScript is a dynamic programming language that is popularly
-                  used to add interactivity and functionality to web pages. It
-                  is interpreted,
-                  <a href="#">read more...</a>
-                </p>
-              </div>
-            </div>
-          </article>
-        </div>
-        <!-- end right 1 -->
 
-        <!-- start right 2 -->
+  <!-- <CenterContaint /> -->
+  <!-- fokusin memberbaiki content ini !! -->
+  <section class="bg-white">
+    <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
         <div
-          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+          class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col"
         >
-          <article
-            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-            style="background-image: url('/src/assets/images/kotlin.png')"
+          <a
+            href=""
+            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
           >
+            <img
+              src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+            />
             <div
-              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+              class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"
+            ></div>
+            <h3
+              class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"
             >
-              <div
-                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
-              >
-                <p
-                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
-                >
-                  Kotlin is a modern open-source programming language developed
-                  by JetBrains for building applications. It is
-                  static,cross-platform, and interoperable with Java.
-                  <a href="#">read more...</a>
-                </p>
-              </div>
-            </div>
-          </article>
+              Wines
+            </h3>
+          </a>
         </div>
-        <!-- end right 2 -->
-
-        <!-- start right 3 -->
+        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+          <a
+            href=""
+            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1504675099198-7023dd85f5a3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"
+            ></div>
+            <h3
+              class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"
+            >
+              Gin
+            </h3>
+          </a>
+          <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+            <a
+              href=""
+              class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1571104508999-893933ded431?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"
+              ></div>
+              <h3
+                class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"
+              >
+                Whiskey
+              </h3>
+            </a>
+            <a
+              href=""
+              class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1626897505254-e0f811aa9bf7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"
+              ></div>
+              <h3
+                class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"
+              >
+                Vodka
+              </h3>
+            </a>
+          </div>
+        </div>
         <div
-          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+          class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col"
         >
-          <article
-            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-            style="background-image: url('/src/assets/images/flutter.png')"
+          <a
+            href=""
+            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
           >
+            <img
+              src="https://images.unsplash.com/photo-1693680501357-a342180f1946?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+            />
             <div
-              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+              class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"
+            ></div>
+            <h3
+              class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"
             >
-              <div
-                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
-              >
-                <p
-                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
-                >
-                  Flutter is an open-source framework developed by Google for
-                  building multiplatform mobile applications. With Flutter,
-                  developers only need to write one codebase
-                  <a href="#">read more...</a>
-                </p>
-              </div>
-            </div>
-          </article>
+              Brandy
+            </h3>
+          </a>
         </div>
-        <!-- end right 3 -->
-
-        <!-- start right 4 -->
-        <div
-          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
-        >
-          <article
-            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-            style="background-image: url('/src/assets/images/laravel.png')"
-          >
-            <div
-              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
-            >
-              <div
-                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
-              >
-                <p
-                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
-                >
-                  Laravel (Monolith). is a web application architecture in which
-                  all application components, such as business logic, database
-                  interaction, and user interface <a href="#">read more...</a>
-                </p>
-              </div>
-            </div>
-          </article>
-        </div>
-        <!-- end right 4 -->
-        <!-- start right 5 -->
-        <div
-          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
-        >
-          <article
-            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
-            style="background-image: url('/src/assets/images/springboot.png')"
-          >
-            <div
-              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
-            >
-              <div
-                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
-              >
-                <p
-                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
-                >
-                  API (Application Programming Interface) API, short for
-                  Application Programming Interface, is like a server that works
-                  between computer programs
-                  <a href="#" class="text-sky">read more...</a>
-                </p>
-              </div>
-            </div>
-          </article>
-        </div>
-        <!-- end right 5 -->
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+
   <!-- end content center -->
 
   <div class="bg-[#F8FAFC] w-full mt-5 mb-20">
@@ -345,3 +308,4 @@ window.onscroll = function (e) {
 // Menjalankan checkScroll setiap 500 milidetik (0.5 detik)
 setInterval(checkScroll, 500);
 </script>
+
